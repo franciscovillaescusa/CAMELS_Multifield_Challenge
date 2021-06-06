@@ -3,18 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-CMC: Camels Multifield Challenge
-================================
+Camels Multifield Challenge (CMC)
+=================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Description
 
+   goals
+   publications
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Data
 
-Indices and tables
-==================
+   Download
+   Description
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :caption: Other
+	     
+   citation
+   license
+   help
