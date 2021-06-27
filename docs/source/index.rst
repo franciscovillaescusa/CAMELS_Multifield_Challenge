@@ -21,27 +21,18 @@ All data is publicly available together with the model and weights of the convol
    :maxdepth: 2
    :caption: Description
 
+   science
    goals
-   publications
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Maps
-
+   data
    description_maps
-   download_maps
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Benchmark
-
    description_benckmark
-   download_benckmark
-
+   
 .. toctree::
    :maxdepth: 2
    :caption: Other
-	     
+
+   terminology
+   publications
    citation
    license
    help
