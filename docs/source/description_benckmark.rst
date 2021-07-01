@@ -54,14 +54,16 @@ These files can be read with optuna package, and two arguments are needed:
 
 We provide an example on how to read the information of these files in this `colab <https://colab.research.google.com/drive/1ab79y_nIr2JkkgtT_QJhjLTJYNjY9M0B?usp=sharing>`_.
 
+.. Note::
+
+   The databases files are very light (typically less than 1 Mb each), so they all can be downloaded easily. The files containing the network weights are however bigger (~100 Mb), so it may be a good idea to only download the weights for the best model or the top 5 models.
+
 
 weights
 -------
 
-This folder contains the weights of all the models trained. Thus, for each field, there will be at least 50 different files containing the weights of the 50 different trials considered. The generic name of these files is:
+This folder contains the weights of all the models trained. Thus, for each field, there will be at least 50 different files containing the weights of the 50 different trials considered. The generic name of these files is ``weights_sim_field_trialnumber_all_steps_500_500_o3.pt``, where ``sim`` can be IllustrisTNG, SIMBA, or Nbody, ``field`` is the name of the considered field (can be several of them), and ``trialnumber`` is the trial number. In the cases where the neural network is trained on fields that are smoothed with a Gaussian kernel, the generic name of the files is ``weights_sim_field_trialnumber_all_steps_500_500_o3_smoothing_width.pt``, where width is the width of the Gaussian kernel in pixel units.
 
-
-
-We provide an example on how to read these files to test one particular model in this colab.
+These files can be read by Pytorch routines once the architecture is specified. In all the cases, the architecture employed is ``o3_err`` (see ``architecture.py`` from the released codes). We provide an example on how to read these files in this `colab <https://colab.research.google.com/drive/18Bbwb30m1dqFccAZlUsJPNaH9iTNOibS?usp=sharing>`_.
 
 
