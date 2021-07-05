@@ -1,10 +1,15 @@
-.. Camels Multifield Challenge documentation master file, created by
+.. CAMELS Multifield Challenge documentation master file, created by
    sphinx-quickstart on Sat Jun  5 20:05:31 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 CAMELS Multifield Challenge (CMC)
 =================================
+
+Cosmologists have developed a theoretical framework (the standard model of Cosmology) that is able to explain a very large variety of cosmological observations. This model has some free parameters that characterize fundamental properties of the Universe, such as its age, geometry, composition...etc.
+
+One of the main goals of modern cosmology is to determine the value of these parameters with the highest accuracy. For this, the community has invested billions of dollars
+
 
 The data from upcoming cosmological surveys may allow us to answer some of the most profounds questions in cosmology: What is the nature of dark energy? What is the absolute mass and hierarchy of neutrinos? How fast is the Universe expanding?
 

@@ -38,7 +38,7 @@ To test a model on a given field(s), or a multifield, follow these steps:
 2) Run the code: ``python test.py``. 
 3) The code will generate a file with true value of the parameters, together with the mean and standard deviation of the posterior for each parameter.
 
-This colab shows an example on how to train and test a model using these scripts.
+This `colab <https://colab.research.google.com/drive/1-BmkA8JSc36O8g9pj7FenD1YSLKqjQR3?usp=sharing>`__ shows an example on how to train and test a model using these scripts.
    
 databases
 ---------
@@ -52,7 +52,7 @@ These files can be read with optuna package, and two arguments are needed:
 - ``study_name``. For all our databases, this variable is set to ``wd_dr_hidden_lr_o3``.
 - ``storage``. This should be set to the a sqlite database with the name of the file, e.g. ``sqlite:////home/fvillaescusa/CMC/2D_maps/benchmark/databases/SIMBA_o3_HI_all_steps_500_500_o3.db``
 
-We provide an example on how to read the information of these files in this `colab <https://colab.research.google.com/drive/1ab79y_nIr2JkkgtT_QJhjLTJYNjY9M0B?usp=sharing>`_.
+We provide an example on how to read the information of these files in this `colab <https://colab.research.google.com/drive/1ab79y_nIr2JkkgtT_QJhjLTJYNjY9M0B?usp=sharing>`__.
 
 .. Note::
 
@@ -64,6 +64,6 @@ weights
 
 This folder contains the weights of all the models trained. Thus, for each field, there will be at least 50 different files containing the weights of the 50 different trials considered. The generic name of these files is ``weights_sim_field_trialnumber_all_steps_500_500_o3.pt``, where ``sim`` can be IllustrisTNG, SIMBA, or Nbody, ``field`` is the name of the considered field (can be several of them), and ``trialnumber`` is the trial number. In the cases where the neural network is trained on fields that are smoothed with a Gaussian kernel, the generic name of the files is ``weights_sim_field_trialnumber_all_steps_500_500_o3_smoothing_width.pt``, where width is the width of the Gaussian kernel in pixel units.
 
-These files can be read by Pytorch routines once the architecture is specified. In all the cases, the architecture employed is ``o3_err`` (see ``architecture.py`` from the released codes). We provide an example on how to read these files in this `colab <https://colab.research.google.com/drive/18Bbwb30m1dqFccAZlUsJPNaH9iTNOibS?usp=sharing>`_.
+These files can be read by Pytorch routines once the architecture is specified. In all the cases, the architecture employed is ``o3_err`` (see ``architecture.py`` from the released codes). We provide an example on how to read these files in this `colab <https://colab.research.google.com/drive/18Bbwb30m1dqFccAZlUsJPNaH9iTNOibS?usp=sharing>`__.
 
 
