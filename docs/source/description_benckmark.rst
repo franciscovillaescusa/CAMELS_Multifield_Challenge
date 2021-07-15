@@ -1,7 +1,7 @@
 Benchmark
 =========
 
-For the 2D maps, CMC provides a benchmark to compare the results with. It consists in the codes written to train and test the networks together with their actual weights.
+For the 2D maps, CMC provides a benchmark to compare the results with. It consists of the codes written to train and test the networks together with their actual weights.
 
 Requisites
 ----------
@@ -14,7 +14,7 @@ Requisites
 Organization
 ------------
 
-The folder containing the codes and weights is called ``benchmark``, and is located within the ``2D_maps`` folder. Inside it, there are three folders called ``scripts``, containing the codes used to train and test the networks, ``databases`` with the optuna databases and ``weights``, that has the weights of the networks.
+The folder containing the codes and weights is called ``benchmark``, and is located within the ``2D_maps`` folder. Inside it, there are three folders called ``scripts``, containing the codes used to train and test the networks, ``databases`` with the optuna databases and ``weights``, which contains the weights of the networks.
 
 scripts
 -------
@@ -22,7 +22,7 @@ scripts
 This folder contains the following codes:
 
 - ``architecture.py``. This script contains different architecture models. 
-- ``data.py``. This script process the data to train the networks.
+- ``data.py``. This script processes the data to train the networks.
 - ``train.py``. This is the code used to train the network. 
 - ``test.py``. This is the code used to test the network. 
 
